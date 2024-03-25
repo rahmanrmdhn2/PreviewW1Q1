@@ -5,7 +5,6 @@
         body {
             margin: 0px;
             padding: 0px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
         
         header {
@@ -18,8 +17,21 @@
             color: white;
         }
 
+        section .home-profile{
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        
+        }
+
+        section img{
+            border-radius: 100px;
+            border: 5px solid gray;
+            width: 150px;
+        }   
+
         section p{
-            margin-left: 90px;
+            margin-left: 20px;
         }
 
         img {
@@ -27,23 +39,27 @@
             filter: drop-shadow(5px 5px 5px #222);
         }
 
-        section img{
-            border-radius: 100px;
-            border: 5px solid gray;
-            width: 150px;
-            display: flex;
-            flex-direction: row;
-        }   
-
         .artikel {
-            margin: 10px 90px;
+            margin: 10px 180px;
             justify-content: center;
             padding: 10px;
             border: 1px solid grey;
         }
 
+        .artikel h2{
+            margin-left: 20px;
+        }
+
+        .artikel p{
+            text-align: left;
+        }
+
         footer a{
             display: inline;
+            text-decoration: none;
+            border-left: 1px solid black;
+            padding: 2px 8px;
+            margin: 0x;
         }
     </style>
     <meta charset="UTF-8">
@@ -59,23 +75,26 @@
         </nav>
     </header>
     <section>
+        <div class="home-profile">
         <img src="https://cdn-icons-png.flaticon.com/512/1250/1250689.png" alt="">
         <p>Hello I'm Rahman Ramadhan, a passionate web developer. Welcome to my portofolio!</p>
+        </div>
+        <article>
+            <div class="artikel">
+            <h2>Project 1</h2>
+            <p>Description of Project 1</p>
+            </div>
+            <div class="artikel">
+            <h2>Project 2</h2>
+            <p>Description of Project 2</p>
+            </div>
+            <div class="artikel">
+            <h2>Project 3</h2>
+            <p>Description of Project 3</p>
+        </div>
+        </article>
     </section>
-    <article>
-        <div class="artikel">
-        <h2>Project 1</h2>
-        <p>Description of Project 1</p>
-        </div>
-        <div class="artikel">
-        <h2>Project 2</h2>
-        <p>Description of Project 2</p>
-        </div>
-        <div class="artikel">
-        <h2>Project 3</h2>
-        <p>Description of Project 3</p>
-    </div>
-    </article>
+   
     <footer>
         <p>&copy;2023 [Rahman Ramadhan]</p>
         <a href="#">LinkedIn</a>
