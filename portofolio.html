@@ -1,6 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        header {
+            padding: 10px;
+            background-color: #333;
+        }
+
+        nav a{
+            text-decoration: none;
+            color: white;
+        }
+
+        section p{
+            margin-left: 90px;
+        }
+
+        img {
+            -webkit-filter: drop-shadow(5px 5px 5px #222);
+            filter: drop-shadow(5px 5px 5px #222);
+        }
+
+        section img{
+            border-radius: 100px;
+            border: 5px solid gray;
+            width: 150px;
+            display: flex;
+            flex-direction: row;
+        }   
+
+        .artikel {
+            margin: 10px 90px;
+            justify-content: center;
+            padding: 10px;
+            border: 1px solid grey;
+        }
+
+        footer a{
+            display: inline;
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio</title>
@@ -8,26 +53,34 @@
 <body>
     <header>
         <nav>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
+            <a href="#">Home</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
         </nav>
     </header>
-
     <section>
         <img src="https://cdn-icons-png.flaticon.com/512/1250/1250689.png" alt="">
-        <p></p>
+        <p>Hello I'm Rahman Ramadhan, a passionate web developer. Welcome to my portofolio!</p>
     </section>
     <article>
-        <h2></h2>
-        <p></p>
+        <div class="artikel">
+        <h2>Project 1</h2>
+        <p>Description of Project 1</p>
+        </div>
+        <div class="artikel">
+        <h2>Project 2</h2>
+        <p>Description of Project 2</p>
+        </div>
+        <div class="artikel">
+        <h2>Project 3</h2>
+        <p>Description of Project 3</p>
+    </div>
     </article>
-
     <footer>
-        <p>Copyright</p>
-        <a href="">Social media Link</a>
+        <p>&copy;2023 [Rahman Ramadhan]</p>
+        <a href="#">LinkedIn</a>
+        <a href="#">Github</a>
+        <a href="#">Twitter</a>
     </footer>
-
-    
 </body>
 </html>
